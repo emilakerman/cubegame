@@ -59,6 +59,6 @@ class MainActivity : AppCompatActivity() {
     fun changeColor() {
         val color: Int =
         Color.argb(255, Random.nextInt(256), Random.nextInt(256), Random.nextInt(256))
-        button1.setBackgroundColor(color)
+        button1.setBackgroundColor(color)/////test commit////
     }
 }
